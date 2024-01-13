@@ -9,6 +9,6 @@ forge test --match-path test/Counter.t.sol --gas-report
         counter.decrement();
     }
 
-### Remapping
-##### Installing on CLI
+### Installing Library
+##### using CLI
      forge install library-name
