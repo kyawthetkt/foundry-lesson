@@ -17,3 +17,5 @@ forge test --match-path test/Counter.t.sol --gas-report
 
 ##### 2. remappings
      forge remappings
+###### install`npm i @openzeppelin/contracts` and create remappings.txt and paste the following in remappings.txt
+    @openzeppelin/=node_modules/@openzeppelin
