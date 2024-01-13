@@ -33,3 +33,6 @@ forge test --match-path test/Counter.t.sol --gas-report
 
 ### Format code
 ##### run `forge fmt`
+
+### console.log
+##### do `import "forge-std/console.sol"` in sol file and learn more about available methods in console file
