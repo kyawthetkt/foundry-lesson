@@ -20,6 +20,8 @@ forge test --match-path test/Counter.t.sol --gas-report
 ###### install`npm i @openzeppelin/contracts` and create remappings.txt and paste the following in remappings.txt
     @openzeppelin/=node_modules/@openzeppelin
 
+    ---
+
     // SPDX-License-Identifier: UNLICENSED
     pragma solidity ^0.8.13;
 
