@@ -30,3 +30,6 @@ forge test --match-path test/Counter.t.sol --gas-report
     contract OpenzTest is Ownable {
         constructor(address initialOwner) Ownable(initialOwner) {}
     }
+
+### Format code
+##### run `forge fmt`
