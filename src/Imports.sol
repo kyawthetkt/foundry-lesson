@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-contract Import {
-    string public greet = "Hello World!";
+import "solmate/tokens/ERC20.sol";
+
+contract Token is ERC20("My Token", "MYT", 18) {
 }

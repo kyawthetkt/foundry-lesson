@@ -1,10 +1,14 @@
 
-# gas-report
+### gas-report
 forge test --match-path test/Counter.t.sol --gas-report
 
-# vm.expectRevert
+### vm.expectRevert
 
     function testDecrementUnderflow() public {
         vm.expectRevert(stdError.arithmeticError);
         counter.decrement();
     }
+
+### Remapping
+##### Installing on CLI
+     forge install library-name
