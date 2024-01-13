@@ -10,5 +10,9 @@ forge test --match-path test/Counter.t.sol --gas-report
     }
 
 ### Installing Library
-##### using CLI
+##### 1. using CLI
      forge install library-name
+     forge update library-name
+     forge remove library-name
+     
+##### 2. 
